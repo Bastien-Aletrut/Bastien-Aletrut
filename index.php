@@ -1,4 +1,11 @@
-<?php
-require 'Controleur/Routeur.php';
-$routeur = new Routeur();
-$routeur->routerRequete();
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+</head>
+<body>
+    <input type="button" value="">
+azeazeaeezae
+</body>
+</html>
