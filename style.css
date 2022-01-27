@@ -1,13 +1,69 @@
-.btn {
-    font-family: arial;
-    letter-spacing: 2px;
-    font-size: 22px;
-    text-transform: uppercase;
-    background: #fc5185;
-    color: #ffffff;
-    border-radius: 10px;
-    padding: 20px 24px;
-    box-shadow: 0 0 60px -10px #CD106E;
-    transition: all .3s;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: #1d4350; /* fallback for old browsers */
+    background-image: linear-gradient(160deg, #FFDB01 0%, #0E197D 100%);
+
+}
+
+/* .np{
+    margin-top: 200px;
+} */
+
+
+.btngrad {background-image: linear-gradient(to right, #FFDB01 0%, #0E197D  100%)}
+.btngrad {
+   margin: 60px auto;
+   width: 300px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s; 
+   background-size: 200% auto; 
+   color: white;            
+   box-shadow: 0 0 20px #eee; 
+   border-radius: 10px; 
+   display: block; 
+   text-decoration:none; 
+ }
+ nav{
+    float: top;
+    display: block;
+    color: var(--Text_Color);
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+ .btngrad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /*ajout*/
+ h1 {
+
+    font: monospace;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0E197D;
   }
+
+.item {
+    margin-top: 30px;
+    font-size: 40px; 
+    font-family: Helvetica, Arial, sans-serif; 
+    text-align: center; 
+    letter-spacing: 0px; 
+    line-height: 1; 
+    color: rgb(17, 50, 157);
+}
