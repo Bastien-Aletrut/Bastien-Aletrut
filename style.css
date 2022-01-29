@@ -93,13 +93,39 @@
    text-transform: uppercase;
    transition: 0.5s; 
    background-size: 200% auto; 
-   color: white;            
+   
+    
+
+   box-shadow: 0 0 20px #eee; 
+   border-radius: 10px; 
+   display: block; 
+ }
+
+.btngrad:hover {
+  background-position: right center; /* change the direction of the change here */
+ 
+  text-decoration: none;
+}
+
+.btngrad2 {background-image: linear-gradient(to right, #FFDB01 0%, #0E197D  100%)}
+.btngrad2 {
+   
+   width: 300px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s; 
+   background-size: 200% auto; 
+   color: #0E197D;
+   font-size: 32px;
+  font-weight:bold;           
    box-shadow: 0 0 20px #eee; 
    border-radius: 10px; 
    display: block; 
    text-decoration:none; 
+
  }
-.btngrad:hover {
+.btngrad2:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
@@ -194,6 +220,24 @@ p{
 /* .cb{
   background-image: url(assets/info.jpg );
 } */
+.inpCont{
+  font-size: 20px;
+}
+.text2{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+
+  background-color: #020841;
+  height: 510px;
+  width: 385px;
+  border-radius: 50px;
+}
+.t2{
+  margin: 40px;
+}
+
+
 
 
 /*resposive*/
